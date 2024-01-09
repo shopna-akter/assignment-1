@@ -142,38 +142,51 @@ span{
     font-weight: 900;
 }
 .container{
-    height: 700px;
+    height: 1050px;
     margin: 0px 85px;
 }
 .image-1{
-    height: 400px;
-    width: 510px;
-    border: 1px solid;
+    height: 450px;
+    width: 470px;
+    background-image: url('resources/Rectangle\ 8.png');
+    background-repeat: no-repeat;
 }
 .image-2{
-    height: 400px;
-    width: 510px;
-    border: 1px solid;
+    height: 450px;
+    width: 470px;
+    background-image: url('resources/Rectangle\ 7.png');
+    background-repeat: no-repeat;
 }
 .image-3{
-    height: 400px;
-    width: 510px;
-    border: 1px solid;
+    height: 450px;
+    width: 470px;
+    background-image: url('resources/Rectangle\ 6.png');
+    background-repeat: no-repeat;
 }
 .image-4{
-    height: 400px;
-    width: 510px;
-    border: 1px solid;
+    height: 450px;
+    width: 470px;
+    background-image: url('resources/Rectangle\ 5.png');
+    background-repeat: no-repeat;
 }
 .image-5{
-    height: 400px;
-    width: 510px;
-    border: 1px solid;
+    height: 450px;
+    width: 470px;
+    background-image: url('resources/Rectangle\ 4.png');
+    background-repeat: no-repeat;
 }
 .image-6{
-    height: 400px;
-    width: 510px;
-    border: 1px solid;
+    height: 450px;
+    width: 470px;
     background-image: url('resources/Rectangle\ 3.png');
     background-repeat: no-repeat;
+    
+}
+.top-half{
+    display: flex;
+    width: 1280px;
+}
+.bottom-half{
+    display: flex;
+    width: 1280px;
 }
