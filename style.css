@@ -1,0 +1,179 @@
+.heading {
+    color: white;
+    font-weight: 900px;
+    font-size: 72px;
+    padding: 0px 332px 200px 332px;
+}
+.header{
+    color: white;
+    font-size: 32px;
+    font-weight: 300px;
+    padding: 200px 500px 0px 500px;
+}
+
+.banner-container {
+    margin-left: 90px;
+    margin-top: 30px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%), url('resources/BannerImage.png');
+    width: 1320px;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 1px;
+}
+/* discount style */
+.discount-header {
+    font-size: 88px;
+    font-weight: 700px;
+    color: red;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.another-header {
+    color: red;
+}
+.discount-container{
+    background-image:url('resources/New\ Year\ Photo.png') ;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 900px;
+    background-position: bottom;
+}
+
+.one-header {
+    font-size: 48px;
+    color: black;
+}
+/* party section */
+.party-header{
+    font-size: 64px;
+    font-weight: 900;
+    color:#FFF;
+    padding-top:120px;
+    padding-left: 120px;
+}
+.party-container{
+    background: linear-gradient(to right, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0) 100%),url('resources/Vectorrr.png') ;
+    height: 630px;
+    margin:30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+.party-para{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-bottom: 300px;
+    padding-left: 100px;
+    gap: 20px;
+}
+.text{
+    width: 70%;
+
+}
+
+/* party-place section */
+span{
+    color: red;
+}
+.box{
+    height:450px;
+    text-align: center;
+    background-image: linear-gradient(lightpink,white);
+    margin: 0px 80px;
+    width:1320px ;
+
+}
+.first-button{
+    background-color: red;
+    color: #FFF;
+    border: 0px;
+    padding: 15px 30px;
+}
+.box >h1,p{
+    padding: 100px 350px;
+}
+/*  */
+.header-text{
+    font-size: 24px;
+    font-weight: 500px;
+    color: red;
+}
+.two-header{
+    font-size: 48px;
+    font-weight: 900;
+}
+.main-div{
+    margin-left: 85px;
+    margin-right: 85px;
+    background-image: url('resources/Ellipse\ 1.png'),url('resources/Group\ 96.png');
+    background-repeat: no-repeat;
+    background-position: center,right;
+    height: 370px;
+    border: 1px solid;
+}
+.first-div{
+    display:block;
+}
+.second{
+    color: red;
+    font-size: 48px;
+    font-weight: 700;
+    text-align:right;
+    padding-bottom: 200px;
+}
+
+
+
+
+
+
+/*  */
+.third-head{
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+}
+.second-head{
+    font-size: 48px;
+    font-weight: 900;
+}
+.container{
+    height: 700px;
+    margin: 0px 85px;
+}
+.image-1{
+    height: 400px;
+    width: 510px;
+    border: 1px solid;
+}
+.image-2{
+    height: 400px;
+    width: 510px;
+    border: 1px solid;
+}
+.image-3{
+    height: 400px;
+    width: 510px;
+    border: 1px solid;
+}
+.image-4{
+    height: 400px;
+    width: 510px;
+    border: 1px solid;
+}
+.image-5{
+    height: 400px;
+    width: 510px;
+    border: 1px solid;
+}
+.image-6{
+    height: 400px;
+    width: 510px;
+    border: 1px solid;
+    background-image: url('resources/Rectangle\ 3.png');
+    background-repeat: no-repeat;
+}
