@@ -1,10 +1,11 @@
 .heading {
     color: white;
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 72px;
-    padding: 0px 332px 200px 332px;
+    margin-top: -10px;
 }
-.header{
+
+.header {
     color: white;
     font-size: 32px;
     font-weight: 300px;
@@ -14,12 +15,14 @@
 .banner-container {
     margin-left: 90px;
     margin-top: 30px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%), url('resources/BannerImage.png');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), url('resources/BannerImage.png');
     width: 1320px;
     text-align: center;
     background-repeat: no-repeat;
-    border-radius: 1px;
+    border-radius: 20px;
+    height: 600px;
 }
+
 /* discount style */
 .discount-header {
     font-size: 88px;
@@ -32,8 +35,9 @@
 .another-header {
     color: red;
 }
-.discount-container{
-    background-image:url('resources/New\ Year\ Photo.png') ;
+
+.discount-container {
+    background-image: url('resources/New\ Year\ Photo.png');
     background-repeat: no-repeat;
     text-align: center;
     height: 900px;
@@ -44,187 +48,226 @@
     font-size: 48px;
     color: black;
 }
+
 /* party section */
-.party-header{
-    font-size: 64px;
-    font-weight: 900;
-    color:#FFF;
-    padding-top:120px;
-    padding-left: 120px;
-}
-.party-container{
-    background: linear-gradient(to right, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0) 100%),url('resources/Vectorrr.png') ;
+.party-container {
+    background: linear-gradient(to right, rgba(00, 00, 00, 0.95) 0%, rgba(0, 0, 0, 0) 100%), url('resources/Vectorrr.png');
     height: 630px;
-    margin:30px;
+    margin-left: 85px;
+    margin-right: 85px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 5px;
-    
+    border-radius: 15px;
+    margin-top: 100px;
 }
-.party-para{
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 400px;
-    padding-bottom: 300px;
-    padding-left: 100px;
-    gap: 20px;
-}
-.text{
-    width: 70%;
 
+.party_main {
+    display: flex;
+}
+
+.party_content {
+    width: 70%;
+}
+
+.party_title {
+    color: #FFF;
+    font-weight: 900;
+    font-size: 64px;
+    padding-left: 126px;
+    padding-top: 60px;
+}
+
+.party_des {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 126px;
+}
+
+.join {
+    background-color: black;
+    color: #FFF;
+    margin-left: 140px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.party_img {
+    margin-top: 68.1px;
 }
 
 /* party-place section */
-span{
+span {
     color: red;
 }
-.box{
-    height:450px;
-    text-align: center;
-    background-image: linear-gradient(lightpink,white);
-    margin: 0px 80px;
-    width:1320px ;
 
+.box {
+    height: 450px;
+    text-align: center;
+    background-image: linear-gradient(lightpink, white);
+    margin-left: 85px;
+    margin-right: 85px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-.first-button{
+
+.first-button {
     background-color: red;
     color: #FFF;
     border: 0px;
     padding: 15px 30px;
 }
-.box >h1,p{
+
+.box>h1 {
     padding: 100px 350px;
 }
+
 /*  */
-.header-text{
+.offer-container{
+    margin: 0px 85px;
+    display: flex;
+}
+.offer-content{
+    width: 30%;
+}
+.offer-content-subtitle{
+    color: #F00;
+    font-weight: 500;
     font-size: 24px;
-    font-weight: 500px;
-    color: red;
+    text-transform: uppercase;
 }
-.two-header{
-    font-size: 48px;
+.offer-content-title{
     font-weight: 900;
-}
-.main-div{
-    margin-left: 85px;
-    margin-right: 85px;
-    background-image: url('resources/Ellipse\ 1.png'),url('resources/Group\ 96.png');
-    background-repeat: no-repeat;
-    background-position: center,right;
-    height: 370px;
-    border: 1px solid;
-}
-.first-div{
-    display:block;
-}
-.second{
-    color: red;
+    color: black;
     font-size: 48px;
-    font-weight: 700;
-    text-align:right;
-    padding-bottom: 200px;
+}
+.offer-content-des{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+}
+.offer-img{
+    width: 40%;
+    text-align: center;
+}
+img.offer-img-photo-item {
+    border: 15px solid red;
+    border-radius: 230px;
+    padding: 15px;
 }
 
 
-
-
-
-
-/*  */
-.third-head{
+.offer-year{
+    width: 30%;
+}
+/* products section */
+.third-head {
     color: red;
     font-size: 24px;
     font-weight: 500;
 }
-.second-head{
+
+.second-head {
     font-size: 48px;
     font-weight: 900;
 }
-.container{
+
+.container {
     height: 1050px;
     margin-left: 85px;
     margin-right: 85px;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
-.image-1{
+.image-1 {
     height: 450px;
     width: 470px;
     background-image: url('resources/Rectangle\ 8.png');
     background-repeat: no-repeat;
 }
-.image-2{
+
+.image-2 {
     height: 450px;
     width: 470px;
     background-image: url('resources/Rectangle\ 7.png');
     background-repeat: no-repeat;
 }
-.image-3{
+
+.image-3 {
     height: 450px;
     width: 470px;
     background-image: url('resources/Rectangle\ 6.png');
     background-repeat: no-repeat;
 }
-.image-4{
+
+.image-4 {
     height: 450px;
     width: 470px;
     background-image: url('resources/Rectangle\ 5.png');
     background-repeat: no-repeat;
 }
-.image-5{
+
+.image-5 {
     height: 450px;
     width: 470px;
     background-image: url('resources/Rectangle\ 4.png');
     background-repeat: no-repeat;
 }
-.image-6{
+
+.image-6 {
     height: 450px;
     width: 470px;
     background-image: url('resources/Rectangle\ 3.png');
     background-repeat: no-repeat;
-    
+
 }
-.top-half{
+
+.top-half {
     display: flex;
     width: 1280px;
 }
-.bottom-half{
+
+.bottom-half {
     display: flex;
     width: 1280px;
 }
+
 /* subscribe-container */
-.subscribe-container{
+.subscribe-container {
     margin-top: 100px;
     height: 600px;
     margin-left: 85px;
     margin-right: 85px;
-    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
 }
-.image-div{
-    background-image: url('resources/Group\ 61.png');
-    height: 150px;
-    width: 150px;
-    background-repeat: no-repeat;
-    margin-left: 585px;
-    margin-top: 80px;
-    gap: 40px;
+.subscribe-photo{
+    padding-left: 585px;
+    padding-top: 60px;
 }
-.subscribe-head{
+.subscribe-head {
     text-align: center;
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 20px;
+    gap: 25;
 }
-.btn-div{
+
+.btn-div {
     text-align: center;
     gap: 20px;
 }
-.mail-btn{
+.mail-btn {
     border-radius: 0px 30px 30px 0px;
-    background-color:#F00;
+    background-color: #F00;
     padding: 20px 50px;
+    margin-left: -10px;
 }
-input{
+
+input {
     padding: 20px 50px;
     border-radius: 30px 0px 0px 30px;
+}
+.subscribe-cntxt{
+    text-align: center;
 }
