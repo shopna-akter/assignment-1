@@ -160,6 +160,7 @@ img.offer-img-photo-item {
 
 .offer-year{
     width: 30%;
+    text-align: center;
 }
 /* products section */
 .third-head {
@@ -270,4 +271,67 @@ input {
 }
 .subscribe-cntxt{
     text-align: center;
+}
+footer{
+    background-color: #070211;
+    height: 450px;
+    padding: 50px 85px;
+}
+.footer-one{
+    display: flex;
+    padding: 30px 0px ;
+}
+.footer-one-content{
+    width: 50%;
+}
+.footer-one-contact{
+    width: 50%;
+    text-align: center;
+}
+.footer-one-content p,a{
+    color: white;
+}
+.footer-three a,p{
+    color: #FFF;
+}
+.footer-one a{
+    text-decoration: none;
+}
+.footer-three a{
+    text-decoration: none;
+}
+.footer-two{
+    text-align: center;
+    padding: 70px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15) ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer-three{
+    display: flex;
+    padding: 30px 0px;
+}
+.footer-three-content{
+    width: 50%;
+}
+.footer-three-btn{
+    width: 50%;
+    padding-top: 15px;
+    text-align: right;
+}
+.offer-year-content-title{
+    color: #F00;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+p.offer-year-content-des {
+    color: black!important;
+}
+
+.offer-year-img {
+    padding-top: 20px;
+}
+.port_des{
+    color: black!important;
+    font-size: 20px;
 }
